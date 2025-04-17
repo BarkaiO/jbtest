@@ -17,6 +17,7 @@ async function leerBalanza() {
         
         // Conexión a la balanza mediante Modbus TCP
         await client.connectTCP(IP_BALANZA, { port: PUERTO_BALANZA });
+        
 
         // Configura el ID del esclavo (balanza)
         client.setID(1);
