@@ -14,6 +14,7 @@ const PUERTO_BALANZA = 502;
 // Función para leer datos de la balanza mediante ModbusRTU
 async function leerBalanza() {
     try {
+        
         // Conexión a la balanza mediante Modbus TCP
         await client.connectTCP(IP_BALANZA, { port: PUERTO_BALANZA });
 
