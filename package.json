@@ -1,0 +1,22 @@
+{
+  "name": "psgres0",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "dec": "node --watch src/app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "modbus-serial": "^8.0.20-no-serial-port",
+    "morgan": "^1.10.0",
+    "pg": "^8.14.1",
+    "serialport": "^13.0.0"
+  }
+}
